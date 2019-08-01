@@ -16,7 +16,7 @@ class Cutout(object):
 
     def __call__(self, img, semantic_label):
         if np.random.rand() > self.p:
-            return img
+            return img, semantic_label
 
         h = img.shape[0]
         w = img.shape[1]

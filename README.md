@@ -4,6 +4,7 @@
     img_c, mask_c = aug(img=image, semantic_label=mask)
     
 ![image-test](https://github.com/changewOw/Cutout-numpy/blob/master/tt.png)
+![image-tes2t](https://github.com/changewOw/Cutout-numpy/blob/master/tt1.png)
 Reference:
     |  https://arxiv.org/abs/1708.04552
     |  https://github.com/uoguelph-mlrg/Cutout/blob/master/util/cutout.py
